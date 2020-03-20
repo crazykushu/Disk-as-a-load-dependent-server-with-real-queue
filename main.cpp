@@ -153,7 +153,6 @@ int main()
         arrayResize(intPtr, -1, currentIndex, oldSize);
         oldSize--;
       }
-      cout << "Current size is: " << oldSize << endl;
     }
     cout << "Average seek time is " << totalTime / runTimes << "ms for a initial Q value of: " << oldSize << endl;
     cout << "Average seek distance is " << totalDistance / runTimes << "cyl for a initial Q value of: " << oldSize << endl;
