@@ -156,29 +156,6 @@ int main()
     }
     cout << "Average seek time is " << totalTime / runTimes << "ms for a initial Q value of: " << oldSize << endl;
     cout << "Average seek distance is " << totalDistance / runTimes << "cyl for a initial Q value of: " << oldSize << endl;
-    
-    // int *intPtr = nullptr; //array pointer
-    // int currentIndex;
-
-    // int mincyl = 1;
-    // int runTimes = 2000000;
-    // for (int size = 1; size < 21; size++)
-    // {
-    //     double totalTime = 0.000;
-    //     long long totalDistance = 0;
-    //     array_constructor(intPtr, size, mincyl, xmax);
-    //     int x = (rand() % (xmax - mincyl + 1)) + mincyl; //random initial position
-    //     for (int i = 0; i < runTimes; i++)
-    //     {
-    //         currentIndex = findNext(intPtr, x, size);
-    //         totalTime = totalTime + seekTime(intPtr[currentIndex]);
-    //         totalDistance = totalDistance + abs(x - intPtr[currentIndex]);
-    //         x = intPtr[currentIndex];
-    //         intPtr[currentIndex] = (rand() % (xmax - mincyl + 1)) + mincyl;
-    //     }
-    //     cout << "Average seek time is " << totalTime / runTimes << "ms for a Q value of: " << size << endl;
-    //     cout << "Average seek distance is " << totalDistance / runTimes << "cyl for a Q value of: " << size << endl;
-    // }
 
     //push into queue
     //new element flag up
